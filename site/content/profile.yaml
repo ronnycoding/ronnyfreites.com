@@ -1,0 +1,36 @@
+- profile:
+  initials: RF
+  name: Ronny Freites
+  profession: Software Engineer, Entrepreneur
+  image: images/profile.jpeg
+  location: San José, CR
+  relocation: true
+  company: Self Employed
+  for_hire: true
+  focus: mvpsoftdevexperts.com
+  focus_url: https://mvpsoftdevexperts.com
+  about: |
+    Hello 👋🏼, My name is Ronny Freites, I'm a Full Stack  Software Engineer, I'm located in Costa Rica.
+
+    I love to build and learn new things. I'm always looking for ways to contribute to open-source code.
+
+    I'm a big fan of NodeJs and its ecosystem, and Typescript enthusiast, software architecture and design patterns are my strong points. I can provide cloud architecture, API design, and even some front-end architecture.
+
+    I believe that ReactJs is the future of web development and I'm always looking for new ways to learn it, improve it, and share it. I've been working with React for a while and I love it.
+
+    I've been working for startups for over 8 years and I've seen a lot of success in the past, from mobile apps to web apps and also big enterprise apps.
+  skills:
+    - Web
+    - Mobile
+    - Cloud
+  tools:
+    - ReactJs / React Native
+    - Django / Flask
+    - NestJs / NextJs / Gatsby
+    - AWS / GCP
+    - Unit Testing / CICD
+  budget:
+    currency: $
+    min: 3
+    max: 30
+    default: 10

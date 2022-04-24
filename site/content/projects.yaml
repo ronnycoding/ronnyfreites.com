@@ -1,0 +1,21 @@
+- name: Marriott International Hotel Development
+  url: https://hotel-development.marriott.com
+  description: |
+    The biggest challenge was to create a custom plugin to manage global hotel locations on a google map, another good challenge was to create a custom plugin to extend Contact Form 7 WordPress plugin to send email to multiples email addresses according to options submitted in the form. Let's talks about your WordPress challenges.
+  status: live
+  tags:
+    - JavaScript
+    - WordPress
+  icon: website
+  image: images/marriott-hotels-develoment-map.png
+
+- name: GoPato Mobile App
+  url: https://apkpure.com/es/gopato/com.gopato
+  description: I contributed to build a marketplace mobile app with errands service like uber eats
+  status: live
+  tags:
+    - NodeJs
+    - AWS
+    - PostgreSQL
+  icon: website
+  image: images/gopato-screen.webp
