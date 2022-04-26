@@ -16,13 +16,8 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
         Contact
       </h5>
 
-    <form action={formspreeEndpoint} className="flex flex-wrap" method="post" encType="
-    multipart/form-data">
-    <div className="flex flex-wrap w-full">
-      <input type="hidden" name="_subject" value="Contact Form" />
-      <input type="hidden" name="_after" value="https://ronnyfreites.com" />
-      <input type="hidden" name="_honeypot" value="" />
-      <input type="hidden" name="confirmation" value="Thank you for your message!" />
+      <form action={formspreeEndpoint} className="flex flex-wrap" method="post">
+        <div className="flex flex-wrap w-full">
           <div className="w-full lg:w-1/3 py-px lg:px-px">
             <input
               aria-label="Name"
@@ -89,7 +84,7 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
                   max={budget.max}
                   min={budget.min}
                   name="budget"
-                  onChange={e => setSelectedBudget(e.currentTarget.value)}
+                  onChange={(e) => setSelectedBudget(e.currentTarget.value)}
                   step="1"
                   type="range"
                 />
