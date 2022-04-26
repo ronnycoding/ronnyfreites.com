@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    description: "Personal page of John Doe",
     locale: "en",
-    title: "John Doe",
+    title: "Ronny Freites | Freelance Software Engineer, Entrepreneur",
+    description:
+      "Hello 👋🏼,'m looking to help you on get sucess with yr project",
+    formspreeEndpoint: "https://mailthis.to/hi@ronnyfreites.com",
   },
   plugins: [
     {
@@ -14,7 +16,7 @@ module.exports = {
         theme: "classic",
         title: "Ronny Freites | Freelance Software Engineer, Entrepreneur",
         description:
-          "Hello 👋🏼,'m looking to help you on get sucess with your project",
+          "Hello 👋🏼,'m looking to help you on get sucess with yr project",
         formspreeEndpoint: "https://mailthis.to/hi@ronnyfreites.com",
       },
     },
