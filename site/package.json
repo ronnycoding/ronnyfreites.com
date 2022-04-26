@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@wkocjan/gatsby-theme-intro": "*",
-    "gatsby": "^4.12.1",
+    "gatsby": "^4.13.0",
     "patch-package": "^6.4.7",
     "postinstall-postinstall": "^2.1.0",
     "react": "^17.0.1",
