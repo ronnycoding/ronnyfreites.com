@@ -9,8 +9,6 @@ This is Ronny Freites' professional resume repository, containing comprehensive 
 ## File Structure and Purpose
 
 ### Core Resume Files
-- **`resume-final.md`** - The primary, production-ready resume in narrative format
-- **`resume-updated.md`** - Alternative resume version with detailed technical achievements
 - **`ronnyfreites-linkedin-resume.pdf`** - PDF version of LinkedIn resume
 
 ### Supporting Documentation
