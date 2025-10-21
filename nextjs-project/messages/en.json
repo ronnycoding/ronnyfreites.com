@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Ronny Freites",
+    "title": "Full-Stack Product Engineer | AI-Powered Product Builder | Content Creator",
+    "yearsExperience": "9+ Years Experience",
+    "followers": "1,110+ Followers",
+    "certifications": "54 Certifications",
+    "location": "San José, Costa Rica",
+    "availableFor": "Available for consulting",
+    "viewProjects": "View Projects",
+    "scheduleConsultation": "Schedule Consultation",
+    "scrollToExplore": "Scroll to explore"
+  },
+  "about": {
+    "title": "About",
+    "description": "Senior Software Engineer with 9+ years of experience specializing in enterprise full-stack development, serverless architecture, e-commerce platform engineering, and AI-powered solutions. Proven track record of architecting and maintaining mission-critical systems processing millions of events daily, with expertise in GraphQL optimization, third-party integrations, scalable system design, and artificial intelligence integration.",
+    "highlights": {
+      "experience": "9+ Years Experience",
+      "enterprise": "Enterprise Systems",
+      "ai": "AI Solutions",
+      "openSource": "Open Source"
+    }
+  },
+  "expertise": {
+    "title": "Expertise & Capabilities",
+    "categories": {
+      "fullStack": {
+        "title": "Full-Stack Development",
+        "description": "Expert in building modern web applications with React, TypeScript, Node.js, and Python"
+      },
+      "ai": {
+        "title": "AI & Machine Learning",
+        "description": "Implementing intelligent solutions with LangChain, Claude, and AWS AI services"
+      },
+      "cloud": {
+        "title": "Cloud Architecture",
+        "description": "Architecting serverless solutions on AWS with Lambda, CDK, and infrastructure as code"
+      },
+      "ecommerce": {
+        "title": "E-commerce Systems",
+        "description": "Building scalable payment gateways and high-volume transaction processing systems"
+      },
+      "devops": {
+        "title": "DevOps & Infrastructure",
+        "description": "Containerization, CI/CD pipelines, and automated deployment strategies"
+      },
+      "graphql": {
+        "title": "GraphQL Optimization",
+        "description": "Performance tuning, Apollo integration, and efficient data fetching strategies"
+      }
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "current": "Current",
+    "viewMore": "View More",
+    "techStack": "Tech Stack"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "filters": {
+      "all": "All",
+      "ai": "AI/ML",
+      "openSource": "Open Source",
+      "ecommerce": "E-commerce",
+      "fullStack": "Full-Stack"
+    },
+    "viewCaseStudy": "View Case Study",
+    "viewAllProjects": "View All Projects"
+  },
+  "certifications": {
+    "title": "Certifications & Learning",
+    "total": "54 total certifications",
+    "featured": "Featured",
+    "verify": "Verify",
+    "viewAll": "View all 54 certifications",
+    "filters": {
+      "all": "All",
+      "ai": "AI/ML",
+      "cloud": "Cloud",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company (optional)",
+      "projectType": "Project Type",
+      "message": "Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "availableFor": "Available for new projects",
+      "responseTime": "Usually responds within 24 hours",
+      "preferCall": "Prefer to schedule a call?",
+      "scheduleCall": "Schedule a Call"
+    },
+    "social": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter"
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Subscribe to get updates",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe",
+      "success": "Subscribed successfully!",
+      "error": "Subscription failed. Please try again."
+    },
+    "copyright": "© 2025 Ronny Freites. All rights reserved.",
+    "builtWith": "Built with Next.js + TypeScript",
+    "backToTop": "Back to top"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "en": "English",
+    "es": "Español"
+  }
+}

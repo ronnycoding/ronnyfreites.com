@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "certifications": "Certificaciones",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "name": "Ronny Freites",
+    "title": "Ingeniero de Producto Full-Stack | Constructor de Productos con IA | Creador de Contenido",
+    "yearsExperience": "9+ Años de Experiencia",
+    "followers": "1,110+ Seguidores",
+    "certifications": "54 Certificaciones",
+    "location": "San José, Costa Rica",
+    "availableFor": "Disponible para consultoría",
+    "viewProjects": "Ver Proyectos",
+    "scheduleConsultation": "Agendar Consulta",
+    "scrollToExplore": "Desplázate para explorar"
+  },
+  "about": {
+    "title": "Acerca de",
+    "description": "Ingeniero de Software Senior con más de 9 años de experiencia especializado en desarrollo full-stack empresarial, arquitectura serverless, ingeniería de plataformas de comercio electrónico y soluciones con IA. Historial comprobado de arquitectura y mantenimiento de sistemas críticos que procesan millones de eventos diariamente, con experiencia en optimización de GraphQL, integraciones de terceros, diseño de sistemas escalables e integración de inteligencia artificial.",
+    "highlights": {
+      "experience": "9+ Años de Experiencia",
+      "enterprise": "Sistemas Empresariales",
+      "ai": "Soluciones de IA",
+      "openSource": "Código Abierto"
+    }
+  },
+  "expertise": {
+    "title": "Experiencia y Capacidades",
+    "categories": {
+      "fullStack": {
+        "title": "Desarrollo Full-Stack",
+        "description": "Experto en construir aplicaciones web modernas con React, TypeScript, Node.js y Python"
+      },
+      "ai": {
+        "title": "IA y Aprendizaje Automático",
+        "description": "Implementación de soluciones inteligentes con LangChain, Claude y servicios de IA de AWS"
+      },
+      "cloud": {
+        "title": "Arquitectura en la Nube",
+        "description": "Arquitectura de soluciones serverless en AWS con Lambda, CDK e infraestructura como código"
+      },
+      "ecommerce": {
+        "title": "Sistemas de Comercio Electrónico",
+        "description": "Construcción de pasarelas de pago escalables y sistemas de procesamiento de transacciones de alto volumen"
+      },
+      "devops": {
+        "title": "DevOps e Infraestructura",
+        "description": "Contenedorización, pipelines CI/CD y estrategias de despliegue automatizado"
+      },
+      "graphql": {
+        "title": "Optimización de GraphQL",
+        "description": "Ajuste de rendimiento, integración con Apollo y estrategias eficientes de obtención de datos"
+      }
+    }
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "current": "Actual",
+    "viewMore": "Ver Más",
+    "techStack": "Stack Tecnológico"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "filters": {
+      "all": "Todos",
+      "ai": "IA/ML",
+      "openSource": "Código Abierto",
+      "ecommerce": "Comercio Electrónico",
+      "fullStack": "Full-Stack"
+    },
+    "viewCaseStudy": "Ver Caso de Estudio",
+    "viewAllProjects": "Ver Todos los Proyectos"
+  },
+  "certifications": {
+    "title": "Certificaciones y Aprendizaje",
+    "total": "54 certificaciones en total",
+    "featured": "Destacado",
+    "verify": "Verificar",
+    "viewAll": "Ver las 54 certificaciones",
+    "filters": {
+      "all": "Todas",
+      "ai": "IA/ML",
+      "cloud": "Nube",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    }
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "company": "Empresa (opcional)",
+      "projectType": "Tipo de Proyecto",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+    },
+    "info": {
+      "availableFor": "Disponible para nuevos proyectos",
+      "responseTime": "Generalmente responde en 24 horas",
+      "preferCall": "¿Prefieres programar una llamada?",
+      "scheduleCall": "Programar una Llamada"
+    },
+    "social": {
+      "email": "Correo",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter"
+    }
+  },
+  "footer": {
+    "quickLinks": "Enlaces Rápidos",
+    "resources": "Recursos",
+    "newsletter": {
+      "title": "Boletín",
+      "description": "Suscríbete para recibir actualizaciones",
+      "placeholder": "Ingresa tu correo",
+      "subscribe": "Suscribirse",
+      "success": "¡Suscripción exitosa!",
+      "error": "La suscripción falló. Por favor, inténtalo de nuevo."
+    },
+    "copyright": "© 2025 Ronny Freites. Todos los derechos reservados.",
+    "builtWith": "Construido con Next.js + TypeScript",
+    "backToTop": "Volver arriba"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "language": {
+    "en": "English",
+    "es": "Español"
+  }
+}
