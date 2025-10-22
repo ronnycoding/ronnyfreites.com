@@ -6,7 +6,6 @@ import { MapPin, Sparkles } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import TypewriterText from './TypewriterText';
-import StatsCounter from './StatsCounter';
 import ScrollIndicator from './ScrollIndicator';
 
 export default function HeroSection() {
