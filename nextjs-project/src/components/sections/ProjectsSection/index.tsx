@@ -1,107 +1,30 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Sparkles, Globe, Search, MessageSquare } from 'lucide-react';
+import { ExternalLink, Github, FileText } from 'lucide-react';
 import { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-
-interface Project {
-  id: string;
-  title: string;
-  role: string;
-  description: string;
-  highlights: string[];
-  techStack: string[];
-  url: string;
-  githubUrl?: string;
-  category: 'AI/ML' | 'Open Source' | 'E-commerce' | 'Enterprise';
-  featured: boolean;
-  icon: React.ElementType;
-}
-
-const projects: Project[] = [
-  {
-    id: 'guanacaste-lots',
-    title: 'AI Powered Real Estate App',
-    role: 'Lead Developer',
-    description: 'AI-powered real estate platform for Costa Rica properties with advanced semantic search and multi-language support.',
-    highlights: [
-      'Google AI SDK for automated content generation and 13-language translation',
-      'Vector-based property search using pgvector extension',
-      'Google Cloud Vision and Video Intelligence API integration',
-      '13 languages with next-intl and AI-powered translations',
-      'WhatsApp-style messaging system with property inquiry management'
-    ],
-    techStack: ['Next.js 15', 'TypeScript', 'PostgreSQL', 'Prisma', 'Material-UI', 'Google Cloud APIs', 'Firebase', 'pgvector'],
-    url: 'https://guanacastelotsforsale.com',
-    category: 'AI/ML',
-    featured: true,
-    icon: Sparkles
-  },
-  {
-    id: 'astro-wp',
-    title: 'Astro WordPress Starter',
-    role: 'Open Source Project',
-    description: 'Modern headless WordPress starter demonstrating best practices for performance-optimized content sites.',
-    highlights: [
-      'WordPress backend with Astro frontend for optimal performance',
-      'Full TypeScript integration with auto-generated GraphQL types',
-      'Yoast SEO integration with proper meta tag handling',
-      'GraphQL Code Generator with Docker-based local development'
-    ],
-    techStack: ['Astro 4.x', 'TypeScript', 'WordPress', 'WPGraphQL', 'Apollo Client', 'Docker'],
-    url: 'https://github.com/ronnycoding/astro-wp',
-    githubUrl: 'https://github.com/ronnycoding/astro-wp',
-    category: 'Open Source',
-    featured: true,
-    icon: Globe
-  },
-  {
-    id: 'loudcrowd-platform',
-    title: 'Enterprise Serverless E-commerce Platform',
-    role: 'Senior Software Engineer',
-    description: 'Mission-critical serverless platform processing millions of e-commerce events and transactions daily.',
-    highlights: [
-      'Impact Affiliate Network integration with 45+ days historical data processing',
-      'Creator/Ambassador platform with dynamic tracking and analytics',
-      'Advanced database query optimization for revenue generation',
-      'Expandable widget system for cross-platform integration'
-    ],
-    techStack: ['Python Flask', 'AWS Lambda', 'React', 'TypeScript', 'Apollo GraphQL', 'PostgreSQL', 'AWS CDK'],
-    url: 'https://loudcrowd.com',
-    category: 'Enterprise',
-    featured: true,
-    icon: Search
-  },
-  {
-    id: 'shipease-commerce',
-    title: 'ShipEase Commerce Platform',
-    role: 'Founder & Lead Developer',
-    description: 'Full-stack e-commerce platform with Shopify integration and Spanish localization.',
-    highlights: [
-      'Complete e-commerce solution from concept to production',
-      'Shopify integration for inventory management',
-      'Spanish language support for international markets',
-      'Custom payment gateway integration'
-    ],
-    techStack: ['Next.js', 'TypeScript', 'Shopify API', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-    url: 'https://shipeasesoftware.com',
-    category: 'E-commerce',
-    featured: false,
-    icon: MessageSquare
-  }
-];
+import { ProjectDetailModal } from './ProjectDetailModal';
+import { projects } from './projectsData';
+import type { Project } from './types';
 
 const categories = ['All', 'AI/ML', 'Open Source', 'E-commerce', 'Enterprise'] as const;
 
 export function ProjectsSection() {
   const [selectedCategory, setSelectedCategory] = useState<'All' | 'AI/ML' | 'Open Source' | 'E-commerce' | 'Enterprise'>('All');
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const filteredProjects = selectedCategory === 'All'
     ? projects
     : projects.filter(p => p.category === selectedCategory);
+
+  const openProjectModal = (project: Project) => {
+    setSelectedProject(project);
+    setIsModalOpen(true);
+  };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -247,33 +170,46 @@ export function ProjectsSection() {
                     </div>
 
                     {/* Links */}
-                    <div className="flex gap-3 pt-4">
-                      {project.url && (
+                    <div className="flex flex-col gap-3 pt-4">
+                      {project.caseStudy && (
                         <Button
                           variant="default"
                           size="sm"
-                          className="flex-1 bg-gradient-to-r from-cyan-500 to-purple-600 hover:opacity-90"
-                          asChild
+                          className="w-full bg-gradient-to-r from-cyan-500 to-purple-600 hover:opacity-90"
+                          onClick={() => openProjectModal(project)}
                         >
-                          <a href={project.url} target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4 mr-2" />
-                            Visit Project
-                          </a>
+                          <FileText className="w-4 h-4 mr-2" />
+                          View Case Study
                         </Button>
                       )}
-                      {project.githubUrl && (
-                        <Button
-                          variant="outline"
-                          size="sm"
-                          className="flex-1"
-                          asChild
-                        >
-                          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                            <Github className="w-4 h-4 mr-2" />
-                            View Code
-                          </a>
-                        </Button>
-                      )}
+                      <div className="flex gap-3">
+                        {project.url && (
+                          <Button
+                            variant={project.caseStudy ? "outline" : "default"}
+                            size="sm"
+                            className={`flex-1 ${!project.caseStudy ? 'bg-gradient-to-r from-cyan-500 to-purple-600 hover:opacity-90' : ''}`}
+                            asChild
+                          >
+                            <a href={project.url} target="_blank" rel="noopener noreferrer">
+                              <ExternalLink className="w-4 h-4 mr-2" />
+                              Visit Project
+                            </a>
+                          </Button>
+                        )}
+                        {project.githubUrl && (
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="flex-1"
+                            asChild
+                          >
+                            <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                              <Github className="w-4 h-4 mr-2" />
+                              View Code
+                            </a>
+                          </Button>
+                        )}
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
@@ -293,6 +229,15 @@ export function ProjectsSection() {
           </motion.div>
         )}
       </div>
+
+      {/* Project Detail Modal */}
+      {selectedProject && (
+        <ProjectDetailModal
+          project={selectedProject}
+          open={isModalOpen}
+          onOpenChange={setIsModalOpen}
+        />
+      )}
     </section>
   );
 }
