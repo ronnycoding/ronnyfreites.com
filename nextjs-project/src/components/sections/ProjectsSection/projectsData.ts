@@ -41,43 +41,6 @@ export const projects: Project[] = [
           'Material-UI Components'
         ]
       },
-      codeSnippets: [
-        {
-          title: 'Vector Search Implementation',
-          language: 'TypeScript',
-          description: 'Semantic property search using pgvector extension for natural language queries',
-          code: `// Vector-based semantic search
-const searchProperties = async (query: string) => {
-  const embedding = await generateEmbedding(query);
-
-  return await prisma.$queryRaw\`
-    SELECT *,
-      (embedding <-> \${embedding}::vector) as distance
-    FROM properties
-    WHERE language = \${locale}
-    ORDER BY distance ASC
-    LIMIT 20
-  \`;
-};`
-        },
-        {
-          title: 'AI-Powered Translation',
-          language: 'TypeScript',
-          description: 'Automated multilingual content generation using Google AI SDK',
-          code: `// Auto-translate property descriptions
-const translateProperty = async (property: Property) => {
-  const model = genAI.getGenerativeModel({
-    model: "gemini-pro"
-  });
-
-  const prompt = \`Translate this property description
-    to \${targetLanguage}: \${property.description}\`;
-
-  const result = await model.generateContent(prompt);
-  return result.response.text();
-};`
-        }
-      ],
       metrics: [
         { label: 'Languages Supported', value: '13', description: 'Full translation coverage' },
         { label: 'Search Accuracy', value: '92%', description: 'Semantic match rate' },
@@ -130,45 +93,6 @@ const translateProperty = async (property: Property) => {
           'TypeScript'
         ]
       },
-      codeSnippets: [
-        {
-          title: 'GraphQL Type Generation',
-          language: 'TypeScript',
-          description: 'Automated type generation from WordPress GraphQL schema',
-          code: `// codegen.ts
-import type { CodegenConfig } from '@graphql-codegen/cli';
-
-const config: CodegenConfig = {
-  schema: process.env.WORDPRESS_API_URL,
-  documents: ['src/**/*.graphql'],
-  generates: {
-    './src/types/graphql.ts': {
-      plugins: [
-        'typescript',
-        'typescript-operations',
-        'typescript-react-apollo'
-      ]
-    }
-  }
-};`
-        },
-        {
-          title: 'Static Page Generation',
-          language: 'TypeScript',
-          description: 'Pre-rendering WordPress content at build time with Astro',
-          code: `// pages/[...slug].astro
-export async function getStaticPaths() {
-  const { data } = await client.query({
-    query: GET_ALL_PAGES
-  });
-
-  return data.pages.nodes.map((page) => ({
-    params: { slug: page.uri },
-    props: { page }
-  }));
-}`
-        }
-      ],
       metrics: [
         { label: 'Lighthouse Score', value: '100', description: 'Performance rating' },
         { label: 'Build Time', value: '45s', description: 'Full site rebuild' },
@@ -221,53 +145,6 @@ export async function getStaticPaths() {
           'Apollo GraphQL'
         ]
       },
-      codeSnippets: [
-        {
-          title: 'Event Processing Lambda',
-          language: 'Python',
-          description: 'Serverless function processing affiliate network events',
-          code: `# lambda_handler.py
-def process_affiliate_event(event, context):
-    records = event['Records']
-
-    for record in records:
-        payload = json.loads(record['body'])
-
-        # Process event with idempotency
-        event_id = payload['event_id']
-        if is_duplicate(event_id):
-            continue
-
-        # Calculate attribution and revenue
-        attribution = calculate_attribution(payload)
-        revenue = process_revenue(payload, attribution)
-
-        # Store in database
-        store_event(event_id, attribution, revenue)
-
-    return {'statusCode': 200}`
-        },
-        {
-          title: 'GraphQL Resolver Optimization',
-          language: 'TypeScript',
-          description: 'Optimized GraphQL resolver with data loader pattern',
-          code: `// resolvers/analytics.ts
-const analyticsResolver = {
-  Query: {
-    creatorStats: async (_, { creatorId }, { dataloaders }) => {
-      // Batch load related data
-      const [revenue, clicks, conversions] = await Promise.all([
-        dataloaders.revenue.load(creatorId),
-        dataloaders.clicks.load(creatorId),
-        dataloaders.conversions.load(creatorId)
-      ]);
-
-      return { revenue, clicks, conversions };
-    }
-  }
-};`
-        }
-      ],
       metrics: [
         { label: 'Daily Events', value: '10M+', description: 'Processing volume' },
         { label: 'Uptime', value: '99.9%', description: 'Annual availability' },

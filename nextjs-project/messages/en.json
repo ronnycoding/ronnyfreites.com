@@ -417,6 +417,25 @@
     "nativeSpeaker": "Native speaker",
     "professionalProficiency": "Professional proficiency"
   },
+  "blog": {
+    "title": "Latest Insights",
+    "description": "Technical articles, tutorials, and insights on software engineering, AI, and modern web development",
+    "viewAll": "View All Articles"
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "description": "What colleagues and clients say about working with me"
+  },
+  "opensource": {
+    "title": "Open Source Contributions",
+    "description": "Contributing to the developer community through open source projects and community leadership",
+    "viewGitHub": "View GitHub Profile"
+  },
+  "services": {
+    "title": "Services & Consulting",
+    "description": "Specialized software engineering and AI consulting services",
+    "cta": "Get In Touch"
+  },
   "common": {
     "readMore": "Read More",
     "showLess": "Show Less",

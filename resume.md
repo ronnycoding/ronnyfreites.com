@@ -218,6 +218,82 @@ Modern headless WordPress starter demonstrating best practices for performance-o
 
 ---
 
+## GitHub Profile & Open Source Contributions
+
+**Profile**: [github.com/ronnycoding](https://github.com/ronnycoding)
+
+### Statistics
+- **Public Repositories**: 217 repositories
+- **Followers**: 49 developers
+- **Annual Contributions** (Current Year):
+  - Commits: 52+ public contributions
+  - Issues: 33+ created/participated
+  - Pull Requests: 4+ submitted
+  - Private Contributions: 1,395+ commits (ShipEase organization)
+
+### Featured Open Source Projects
+
+#### **CostaRicaJS - JavaScript Fundamentals Book** ⭐ 15
+[github.com/costaricajs/Fundamentos-de-JavaScript](https://github.com/costaricajs/Fundamentos-de-JavaScript)
+- Comprehensive JavaScript learning resource for Spanish-speaking developers
+- Community-driven educational project
+
+#### **CostaRicaJS Official Website** ⭐ 17
+[github.com/costaricajs/costaricajs.github.io](https://github.com/costaricajs/costaricajs.github.io)
+- Official community website built with HTML/CSS
+- Central hub for Costa Rica's JavaScript community
+
+#### **Personal Portfolio** ⭐ 5
+[github.com/ronnycoding/ronnyfreites](https://github.com/ronnycoding/ronnyfreites)
+- Modern TypeScript-based personal website
+- Showcasing projects and professional experience
+
+#### **WordPress Migration Tool** ⭐ 3
+[github.com/ronnycoding/wordpress-migrate-tool](https://github.com/ronnycoding/wordpress-migrate-tool)
+- Automated WordPress site migration utility
+- Simplifies complex migration processes
+
+#### **Gatsby + WordPress Starter** ⭐ 2
+[github.com/ronnycoding/gatsby-starter-typescript-tailwind-wordpress](https://github.com/ronnycoding/gatsby-starter-typescript-tailwind-wordpress)
+- Modern headless WordPress starter with Gatsby, TypeScript, and Tailwind
+- Performance-optimized static site generation
+
+#### **Astro WordPress Integration**
+[github.com/ronnycoding/astro-wp](https://github.com/ronnycoding/astro-wp)
+- Modern Astro theme integrated with WordPress as headless CMS
+- Features WP-CLI support and Docker-based development
+
+#### **DevOps Workshop - Infrastructure as Code**
+[github.com/CRDevOpsCloudNative/20210325_workshop](https://github.com/CRDevOpsCloudNative/20210325_workshop)
+- Educational workshop materials on IaC vs IaS
+- Terraform/HCL-based infrastructure examples
+
+### Key Contributions to Organizations
+
+#### **ShipEase Commerce** (Private Repositories - 9 Projects)
+- **shipeasecommerce.com**: Main e-commerce platform
+- **shipease**: Core platform services
+- **shipease-mobile**: React Native mobile application
+- **web.astro.headshotscostarica**: Astro-based web application
+- **linkedin-mcp-server**: Model Context Protocol integration
+- **customer-service-voice**: AI-powered customer service system
+
+#### **CostaRicaJS** (Community Organization)
+- **Fundamentos de JavaScript**: JavaScript fundamentals educational book
+- **costaricajs.github.io**: Official community website
+- **foro**: Community discussion forum
+- **organizers**: Organizer data management
+- **nodeschool-mentors-2016**: NodeSchool event coordination
+
+### Technical Focus Areas
+- **AI/ML Projects**: Model Context Protocol, LangChain integrations
+- **E-commerce Platforms**: Shopify, WordPress, Astro integrations
+- **Headless CMS**: WordPress, GraphQL, modern JAMstack
+- **Infrastructure**: Docker, Terraform, AWS serverless
+- **Developer Tools**: Migration utilities, starter templates, educational resources
+
+---
+
 ## Community Involvement & Volunteering
 
 ### **CostaRicaJS Community Leadership**
@@ -260,9 +336,13 @@ Colleague at LoudCrowd
 - **Performance Optimization**: Implemented systems improving reliability and revenue generation
 - **Innovation**: Developed QR-based payment solutions and AI-powered content platforms
 - **Mentorship**: Consistently provided guidance and technical leadership to junior developers
-- **Open Source**: Active contributor with multiple public repositories and community involvement
+- **Open Source Impact**:
+  - 217 public repositories on GitHub
+  - 1,395+ private commits to ShipEase organization
+  - Featured projects with 15+ stars in JavaScript education
+  - Active contributor to CostaRicaJS and community projects
 - **Continuous Learning**: 54+ professional certifications across cloud, AI, and development technologies
-- **Community Impact**: 10+ years of leadership in Costa Rica's JavaScript ecosystem
+- **Community Impact**: 10+ years of leadership in Costa Rica's JavaScript ecosystem with educational resources reaching hundreds of developers
 
 ---
 

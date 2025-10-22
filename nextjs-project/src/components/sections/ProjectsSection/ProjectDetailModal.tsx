@@ -11,7 +11,7 @@ import {
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ExternalLink, Github, Code2, Lightbulb, TrendingUp, Target } from 'lucide-react';
+import { ExternalLink, Github, Lightbulb, TrendingUp, Target } from 'lucide-react';
 import type { Project } from './types';
 
 interface ProjectDetailModalProps {
@@ -29,7 +29,7 @@ export function ProjectDetailModal({ project, open, onOpenChange }: ProjectDetai
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto bg-background backdrop-blur-sm">
         <DialogHeader>
           <div className="flex items-start gap-4 mb-4">
             <div className="p-3 rounded-xl bg-gradient-to-br from-cyan-500 to-purple-600 shadow-lg">
@@ -62,7 +62,7 @@ export function ProjectDetailModal({ project, open, onOpenChange }: ProjectDetai
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.1 }}
           >
-            <Card className="border-cyan-500/20 bg-background/50">
+            <Card className="border-cyan-500/20 bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-lg">
                   <Target className="w-5 h-5 text-cyan-400" />
@@ -81,7 +81,7 @@ export function ProjectDetailModal({ project, open, onOpenChange }: ProjectDetai
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.2 }}
           >
-            <Card className="border-purple-500/20 bg-background/50">
+            <Card className="border-purple-500/20 bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-lg">
                   <Lightbulb className="w-5 h-5 text-purple-400" />
@@ -100,7 +100,7 @@ export function ProjectDetailModal({ project, open, onOpenChange }: ProjectDetai
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.3 }}
           >
-            <Card className="border-green-500/20 bg-background/50">
+            <Card className="border-green-500/20 bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-lg">
                   <TrendingUp className="w-5 h-5 text-green-400" />
@@ -130,7 +130,7 @@ export function ProjectDetailModal({ project, open, onOpenChange }: ProjectDetai
               <h3 className="text-lg font-semibold mb-4">Key Metrics</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {project.caseStudy.metrics.map((metric, idx) => (
-                  <Card key={idx} className="text-center bg-background/50">
+                  <Card key={idx} className="text-center bg-card">
                     <CardContent className="pt-6">
                       <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent">
                         {metric.value}
@@ -153,7 +153,7 @@ export function ProjectDetailModal({ project, open, onOpenChange }: ProjectDetai
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: 0.5 }}
             >
-              <Card className="bg-background/50">
+              <Card className="bg-card">
                 <CardHeader>
                   <CardTitle className="text-lg">System Architecture</CardTitle>
                 </CardHeader>
@@ -174,39 +174,6 @@ export function ProjectDetailModal({ project, open, onOpenChange }: ProjectDetai
             </motion.div>
           )}
 
-          {/* Code Snippets Section */}
-          {project.caseStudy.codeSnippets && project.caseStudy.codeSnippets.length > 0 && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3, delay: 0.6 }}
-            >
-              <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                <Code2 className="w-5 h-5" />
-                Technical Implementation
-              </h3>
-              <div className="space-y-4">
-                {project.caseStudy.codeSnippets.map((snippet, idx) => (
-                  <Card key={idx} className="bg-background/50">
-                    <CardHeader>
-                      <CardTitle className="text-sm flex items-center justify-between">
-                        <span>{snippet.title}</span>
-                        <Badge variant="secondary" className="text-xs">{snippet.language}</Badge>
-                      </CardTitle>
-                      {snippet.description && (
-                        <p className="text-sm text-muted-foreground">{snippet.description}</p>
-                      )}
-                    </CardHeader>
-                    <CardContent>
-                      <pre className="p-4 bg-muted/50 rounded-lg overflow-x-auto text-sm">
-                        <code>{snippet.code}</code>
-                      </pre>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </motion.div>
-          )}
 
           {/* Lessons Learned Section */}
           <motion.div
@@ -214,7 +181,7 @@ export function ProjectDetailModal({ project, open, onOpenChange }: ProjectDetai
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.7 }}
           >
-            <Card className="bg-background/50">
+            <Card className="bg-card">
               <CardHeader>
                 <CardTitle className="text-lg">Lessons Learned</CardTitle>
               </CardHeader>

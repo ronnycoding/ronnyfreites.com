@@ -349,6 +349,25 @@
     "nativeSpeaker": "Hablante nativo",
     "professionalProficiency": "Competencia profesional"
   },
+  "blog": {
+    "title": "Últimos Artículos",
+    "description": "Artículos técnicos, tutoriales y perspectivas sobre ingeniería de software, IA y desarrollo web moderno",
+    "viewAll": "Ver Todos los Artículos"
+  },
+  "testimonials": {
+    "title": "Testimonios de Clientes",
+    "description": "Lo que colegas y clientes dicen sobre trabajar conmigo"
+  },
+  "opensource": {
+    "title": "Contribuciones Open Source",
+    "description": "Contribuyendo a la comunidad de desarrolladores a través de proyectos open source y liderazgo comunitario",
+    "viewGitHub": "Ver Perfil de GitHub"
+  },
+  "services": {
+    "title": "Servicios y Consultoría",
+    "description": "Servicios especializados de ingeniería de software y consultoría en IA",
+    "cta": "Contactar"
+  },
   "common": {
     "readMore": "Leer Más",
     "showLess": "Mostrar Menos",
