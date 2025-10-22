@@ -1,47 +1,19 @@
 'use client';
 
-import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Mail, MapPin, Linkedin, Github, Send, CheckCircle2 } from 'lucide-react';
+import { Mail, MapPin, Linkedin, Github } from 'lucide-react';
 
 export function ContactSection() {
   const t = useTranslations('contact');
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSuccess, setIsSuccess] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
-
-    setIsSubmitting(false);
-    setIsSuccess(true);
-
-    // Reset form
-    setTimeout(() => {
-      setFormData({ name: '', email: '', message: '' });
-      setIsSuccess(false);
-    }, 3000);
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
-  };
+  // Form-related imports and state commented out with the form
+  // import { useState } from 'react';
+  // import { Button } from '@/components/ui/button';
+  // import { Input } from '@/components/ui/input';
+  // import { Textarea } from '@/components/ui/textarea';
+  // import { Send, CheckCircle2 } from 'lucide-react';
 
   return (
     <section id="contact" className="py-20 bg-gradient-to-b from-background to-accent-purple/5 relative overflow-hidden">

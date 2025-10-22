@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
 import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 
