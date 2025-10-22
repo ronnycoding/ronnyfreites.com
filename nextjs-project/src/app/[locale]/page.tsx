@@ -4,6 +4,7 @@ import AboutSection from '@/components/sections/AboutSection'
 import { ExperienceSection } from '@/components/sections/ExperienceSection'
 import { ExpertiseSection } from '@/components/sections/ExpertiseSection'
 import { ProjectsSection } from '@/components/sections/ProjectsSection'
+import { CertificationsSection } from '@/components/sections/CertificationsSection'
 import Footer from '@/components/sections/Footer/Footer'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <ExperienceSection />
       <ExpertiseSection />
       <ProjectsSection />
+      <CertificationsSection />
       {/* Existing Chakra UI sections temporarily hidden - will be migrated in Phase 3 */}
       {/* <DownloadCVSection /> */}
       {/* <ContactSection /> */}

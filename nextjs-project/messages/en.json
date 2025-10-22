@@ -16,11 +16,6 @@
     "location": "San José, Costa Rica",
     "availability": "Available for hire",
     "description": "Senior Software Engineer with 9+ years of experience specializing in enterprise full-stack development, serverless architecture, e-commerce platform engineering, and AI-powered solutions.",
-    "stats": {
-      "experience": "Years Experience",
-      "followers": "GitHub Followers",
-      "certifications": "Certifications"
-    },
     "cta": {
       "viewWork": "View My Work",
       "contact": "Get In Touch",
@@ -69,7 +64,13 @@
         "period": "Aug 2025 - Present",
         "location": "San José, Costa Rica - Remote",
         "description": "Delivering AI-powered software solutions and consulting services, specializing in artificial intelligence integration, software design, and innovative product development. Focus on building intelligent systems that leverage cutting-edge AI technologies to solve complex business problems.",
-        "skills": ["Artificial Intelligence (AI)", "Software Design", "Product Development", "LangChain", "Model Context Protocol"]
+        "skills": [
+          "Artificial Intelligence (AI)",
+          "Software Design",
+          "Product Development",
+          "LangChain",
+          "Model Context Protocol"
+        ]
       },
       {
         "id": "loudcrowd",
@@ -241,30 +242,88 @@
       "ai": {
         "title": "AI & Machine Learning (2025)",
         "items": [
-          { "name": "Foundation: Introduction to LangGraph", "issuer": "LangChain", "date": "Sep 2025", "credential": "https://academy.langchain.com/certificates/q3u1a3g7qa" },
-          { "name": "Claude Code in Action", "issuer": "Anthropic", "date": "Aug 2025", "credential": "https://verify.skilljar.com/c/gvuf39mhry56" },
-          { "name": "Introduction to Model Context Protocol", "issuer": "Anthropic", "date": "Aug 2025" },
-          { "name": "Building a Machine Learning Ready Organization", "issuer": "AWS", "date": "Jan 2025" },
-          { "name": "Developing Generative Artificial Intelligence Solution", "issuer": "AWS", "date": "Jan 2025" },
-          { "name": "Essentials of Prompt Engineering", "issuer": "AWS", "date": "Jan 2025" }
+          {
+            "name": "Foundation: Introduction to LangGraph",
+            "issuer": "LangChain",
+            "date": "Sep 2025",
+            "credential": "https://academy.langchain.com/certificates/q3u1a3g7qa"
+          },
+          {
+            "name": "Claude Code in Action",
+            "issuer": "Anthropic",
+            "date": "Aug 2025",
+            "credential": "https://verify.skilljar.com/c/gvuf39mhry56"
+          },
+          {
+            "name": "Introduction to Model Context Protocol",
+            "issuer": "Anthropic",
+            "date": "Aug 2025"
+          },
+          {
+            "name": "Building a Machine Learning Ready Organization",
+            "issuer": "AWS",
+            "date": "Jan 2025"
+          },
+          {
+            "name": "Developing Generative Artificial Intelligence Solution",
+            "issuer": "AWS",
+            "date": "Jan 2025"
+          },
+          {
+            "name": "Essentials of Prompt Engineering",
+            "issuer": "AWS",
+            "date": "Jan 2025"
+          }
         ]
       },
       "development": {
         "title": "Advanced Development (2024)",
         "items": [
-          { "name": "Fullstack TypeScript (feat. GraphQL & Node.js)", "issuer": "Frontend Masters", "date": "Oct 2024" },
-          { "name": "Introduction to Backend Architectures", "issuer": "Frontend Masters", "date": "Oct 2024" },
-          { "name": "Practical Python", "issuer": "Frontend Masters", "date": "Oct 2024" },
-          { "name": "Astro for Fast Website Development", "issuer": "Frontend Masters", "date": "Sep 2024" },
-          { "name": "Enterprise TypeScript", "issuer": "Frontend Masters", "date": "Sep 2024" }
+          {
+            "name": "Fullstack TypeScript (feat. GraphQL & Node.js)",
+            "issuer": "Frontend Masters",
+            "date": "Oct 2024"
+          },
+          {
+            "name": "Introduction to Backend Architectures",
+            "issuer": "Frontend Masters",
+            "date": "Oct 2024"
+          },
+          {
+            "name": "Practical Python",
+            "issuer": "Frontend Masters",
+            "date": "Oct 2024"
+          },
+          {
+            "name": "Astro for Fast Website Development",
+            "issuer": "Frontend Masters",
+            "date": "Sep 2024"
+          },
+          {
+            "name": "Enterprise TypeScript",
+            "issuer": "Frontend Masters",
+            "date": "Sep 2024"
+          }
         ]
       },
       "cloud": {
         "title": "Cloud & Infrastructure",
         "items": [
-          { "name": "Ultimate AWS Certified Cloud Practitioner", "issuer": "Udemy", "date": "Dec 2020" },
-          { "name": "AWS CloudFormation - Infrastructure as Code", "issuer": "Udemy", "date": "Oct 2019" },
-          { "name": "Introduction to AWS Lambda", "issuer": "AWS", "date": "Dec 2018" }
+          {
+            "name": "Ultimate AWS Certified Cloud Practitioner",
+            "issuer": "Udemy",
+            "date": "Dec 2020"
+          },
+          {
+            "name": "AWS CloudFormation - Infrastructure as Code",
+            "issuer": "Udemy",
+            "date": "Oct 2019"
+          },
+          {
+            "name": "Introduction to AWS Lambda",
+            "issuer": "AWS",
+            "date": "Dec 2018"
+          }
         ]
       }
     }
@@ -293,8 +352,17 @@
         "organization": "WordCamp San José",
         "role": "Speaker & Volunteer",
         "events": [
-          { "type": "Speaker", "date": "Sep 2017", "topic": "Nuevas características en PHP7", "url": "https://2017.sanjose.wordcamp.org/speaker/ronny-freites/#more-1185" },
-          { "type": "Volunteer", "date": "Nov 2016", "description": "First WordCamp in Costa Rica history" }
+          {
+            "type": "Speaker",
+            "date": "Sep 2017",
+            "topic": "Nuevas características en PHP7",
+            "url": "https://2017.sanjose.wordcamp.org/speaker/ronny-freites/#more-1185"
+          },
+          {
+            "type": "Volunteer",
+            "date": "Nov 2016",
+            "description": "First WordCamp in Costa Rica history"
+          }
         ]
       }
     ]

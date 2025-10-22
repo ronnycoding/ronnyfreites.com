@@ -77,7 +77,10 @@ export default function HeroSection() {
           {/* Text Content - 60% on desktop */}
           <div className="lg:col-span-3 space-y-8">
             {/* Location Badge */}
-            <motion.div variants={itemVariants} className="flex items-center gap-2 flex-wrap">
+            <motion.div
+              variants={itemVariants}
+              className="flex items-center gap-2 flex-wrap"
+            >
               <div className="flex items-center gap-2 px-4 py-2 bg-muted/50 backdrop-blur-sm rounded-full border border-border/50">
                 <MapPin className="w-4 h-4 text-accent-cyan" />
                 <span className="text-sm text-foreground">{t('location')}</span>
@@ -88,7 +91,9 @@ export default function HeroSection() {
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{ duration: 2, repeat: Infinity }}
                 />
-                <span className="text-sm font-medium text-foreground">{t('availability')}</span>
+                <span className="text-sm font-medium text-foreground">
+                  {t('availability')}
+                </span>
               </div>
             </motion.div>
 
@@ -111,18 +116,11 @@ export default function HeroSection() {
               />
             </motion.div>
 
-            {/* Stats Counter */}
+            {/* CTA Buttons */}
             <motion.div
               variants={itemVariants}
-              className="grid grid-cols-3 gap-6 py-8"
+              className="flex flex-wrap gap-4"
             >
-              <StatsCounter value={9} suffix="+" label={t('stats.experience')} delay={0.5} />
-              <StatsCounter value={1110} suffix="+" label={t('stats.followers')} delay={0.7} />
-              <StatsCounter value={54} label={t('stats.certifications')} delay={0.9} />
-            </motion.div>
-
-            {/* CTA Buttons */}
-            <motion.div variants={itemVariants} className="flex flex-wrap gap-4">
               <Button
                 size="lg"
                 onClick={handleViewProjects}
@@ -168,12 +166,12 @@ export default function HeroSection() {
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-background shadow-2xl">
                 <div className="absolute inset-0 bg-gradient-to-br from-accent-cyan/20 to-accent-purple/20" />
                 <Image
-                  src="/placeholder-profile.jpg"
+                  src="/images/profile.jpg"
                   alt={t('name')}
                   fill
                   className="object-cover"
                   priority
-                  onError={(e) => {
+                  onError={e => {
                     // Fallback to gradient if image fails to load
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
