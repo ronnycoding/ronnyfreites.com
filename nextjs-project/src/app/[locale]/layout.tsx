@@ -1,10 +1,18 @@
+import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { routing } from '@/../../i18n/routing';
 import { ThemeProvider } from '@/providers/ThemeProvider';
 import { Inter } from 'next/font/google';
+import '../globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'Ronny Freites - Full-Stack Product Engineer',
+  description:
+    'AI-Powered Product Builder | Content Creator for Software Engineers',
+};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -25,7 +33,7 @@ export default async function LocaleLayout({
       <body className={`${inter.className} overflow-x-hidden`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="system"
           enableSystem={true}
           disableTransitionOnChange={false}
         >

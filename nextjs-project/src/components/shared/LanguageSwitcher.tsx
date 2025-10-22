@@ -3,7 +3,6 @@
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
-import { HStack } from '@chakra-ui/react';
 
 export function LanguageSwitcher() {
   const locale = useLocale();
@@ -26,7 +25,7 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <HStack gap={2}>
+    <div className="flex items-center gap-2">
       <Button
         variant={locale === 'en' ? 'default' : 'outline'}
         size="sm"
@@ -43,6 +42,6 @@ export function LanguageSwitcher() {
       >
         ES
       </Button>
-    </HStack>
+    </div>
   );
 }
