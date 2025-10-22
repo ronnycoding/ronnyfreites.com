@@ -1,0 +1,324 @@
+{
+  "navigation": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "cv": "CV",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Ronny Freites",
+    "title": "Full-Stack Product Engineer",
+    "subtitle": "AI-Powered Product Builder | Content Creator for Software Engineers",
+    "location": "San José, Costa Rica",
+    "description": "Senior Software Engineer with 9+ years of experience specializing in enterprise full-stack development, serverless architecture, e-commerce platform engineering, and AI-powered solutions.",
+    "cta": {
+      "viewWork": "View My Work",
+      "contact": "Get In Touch"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "summary": "Senior Software Engineer with 9+ years of experience specializing in enterprise full-stack development, serverless architecture, e-commerce platform engineering, and AI-powered solutions. Proven track record of architecting and maintaining mission-critical systems processing millions of events daily, with expertise in GraphQL optimization, third-party integrations, scalable system design, and artificial intelligence integration.",
+    "highlights": {
+      "leadership": "Strong background in technical leadership, mentoring, and community involvement in Costa Rica's JavaScript and WordPress ecosystem.",
+      "passion": "Passionate about building innovative AI-driven solutions that enhance user experience and drive business growth."
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "yearsOfExperience": "9+ Years of Experience",
+    "items": [
+      {
+        "id": "ai-consultant",
+        "title": "AI Software Engineer Consultant",
+        "company": "Self Employed (Freelance)",
+        "period": "Aug 2025 - Present",
+        "location": "San José, Costa Rica - Remote",
+        "description": "Delivering AI-powered software solutions and consulting services, specializing in artificial intelligence integration, software design, and innovative product development. Focus on building intelligent systems that leverage cutting-edge AI technologies to solve complex business problems.",
+        "skills": ["Artificial Intelligence (AI)", "Software Design", "Product Development", "LangChain", "Model Context Protocol"]
+      },
+      {
+        "id": "loudcrowd",
+        "title": "Senior Software Engineer",
+        "company": "LoudCrowd",
+        "period": "Apr 2022 - Jul 2025",
+        "duration": "3 years 4 months",
+        "location": "Remote",
+        "description": "Architected and maintained a mission-critical enterprise serverless platform processing millions of e-commerce events and transactions daily. Led full-stack development with focus on GraphQL optimization, third-party integrations, and scalable system architecture.",
+        "achievements": [
+          "Impact Affiliate Network Integration: Spearheaded development of robust web event processing pipelines handling 45+ days of historical data with sophisticated error handling and automated retry mechanisms.",
+          "Creator/Ambassador Platform: Architected comprehensive influencer marketing platform with dynamic tracking link generation, real-time analytics dashboards, and commission calculation engines.",
+          "Performance Optimization: Implemented advanced database query strategies and intelligent product sorting algorithms, directly contributing to improved system reliability and increased revenue generation.",
+          "Technical Innovation: Developed expandable widget system with multiple positioning options, enabling seamless product link integration across various platforms."
+        ],
+        "techStack": "Python Flask (serverless on AWS Lambda), React/TypeScript with Apollo GraphQL, PostgreSQL on AWS RDS, AWS CDK + Serverless Framework"
+      },
+      {
+        "id": "gorilla-logic",
+        "title": "Senior Software Engineering Consultant",
+        "company": "Gorilla Logic",
+        "period": "Sep 2021 - Apr 2022",
+        "duration": "8 months",
+        "location": "Costa Rica",
+        "description": "Led transformation of legacy .NET system into modern serverless architecture for Submittable's Grant Management system, serving as both technical lead and mentor.",
+        "achievements": [
+          "Legacy System Migration: Successfully migrated existing .NET Core system to React with AWS Lambda serverless functions",
+          "Technical Leadership: Provided strategic planning and execution guidance, mentoring junior developers on project expectations and scalable architecture best practices",
+          "Modern Frontend Development: Implemented React application using Hooks, Context API, and Redux for effective state management",
+          "Payment Integration: Implemented Payoneer integration for fund withdrawals and payment processing",
+          "Quality Assurance: Established comprehensive unit testing framework using Jest and React Testing Library"
+        ],
+        "techStack": "ReactJS, AWS Lambda, .NET Core, Redux, Jest, React Testing Library"
+      },
+      {
+        "id": "omnilabs",
+        "title": "Technical Lead",
+        "company": "OMNiLabs",
+        "period": "Nov 2018 - Sep 2021",
+        "duration": "2 years 11 months",
+        "location": "Costa Rica - Remote",
+        "description": "Led team of six full-stack developers in developing comprehensive payment gateway project with QR code-based retail payment solutions.",
+        "achievements": [
+          "Team Leadership: Managed and mentored team of six developers through complex technical challenges",
+          "Payment Gateway Architecture: Designed and implemented complete payment system with external payment integrations and mobile application support",
+          "QR Code Innovation: Successfully implemented QR code-based payment solution specifically tailored for retail-level payment reception",
+          "AWS Infrastructure: Optimized performance using AWS Lambda functions and Serverless.com infrastructure management",
+          "Strategic Decision Making: Led architectural decisions and feature design while fostering collaborative learning environment"
+        ],
+        "techStack": "TypeScript, Node.js, React Native, AWS Lambda, Serverless Framework"
+      },
+      {
+        "id": "critical-mass",
+        "title": "Senior Full Stack Developer",
+        "company": "Critical Mass",
+        "period": "Nov 2016 - Nov 2018",
+        "duration": "2 years 1 month",
+        "location": "Costa Rica - On-site",
+        "description": "Led development of international Marriott Hotels website, focusing on accessibility, performance, and user experience for Fortune 500 client.",
+        "achievements": [
+          "Enterprise WordPress Development: Led development of international Marriott site with custom plugin for business locations showcase",
+          "Advanced Filtering Systems: Designed comprehensive plugin with region and brand filters for managing substantial information volumes",
+          "Accessibility Excellence: Implemented advanced accessibility techniques and screen reader integration for inclusive user experience",
+          "Technical Mentorship: Mentored team members and contributed to solving complex challenges with innovative solutions"
+        ],
+        "techStack": "WordPress, PHP, jQuery, MySQL, Custom Plugin Development"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Expertise",
+    "categories": {
+      "backend": {
+        "title": "Backend Technologies",
+        "items": [
+          { "name": "TypeScript", "level": "expert" },
+          { "name": "Python", "level": "expert" },
+          { "name": "JavaScript", "level": "expert" },
+          { "name": "Node.js", "level": "expert" },
+          { "name": "Flask", "level": "advanced" },
+          { "name": "PostgreSQL", "level": "expert" },
+          { "name": "AWS Lambda", "level": "expert" },
+          { "name": "GraphQL", "level": "expert" }
+        ]
+      },
+      "frontend": {
+        "title": "Frontend Technologies",
+        "items": [
+          { "name": "React", "level": "expert" },
+          { "name": "Next.js", "level": "expert" },
+          { "name": "TypeScript", "level": "expert" },
+          { "name": "Tailwind CSS", "level": "expert" },
+          { "name": "Apollo Client", "level": "expert" },
+          { "name": "Redux", "level": "advanced" }
+        ]
+      },
+      "ai": {
+        "title": "AI & Machine Learning",
+        "items": [
+          { "name": "Google AI SDK (Gemini)", "level": "advanced" },
+          { "name": "OpenAI APIs", "level": "advanced" },
+          { "name": "LangChain", "level": "advanced" },
+          { "name": "LangGraph", "level": "intermediate" },
+          { "name": "Vector Databases", "level": "advanced" },
+          { "name": "Prompt Engineering", "level": "expert" }
+        ]
+      },
+      "devops": {
+        "title": "DevOps & Infrastructure",
+        "items": [
+          { "name": "Docker", "level": "advanced" },
+          { "name": "AWS", "level": "expert" },
+          { "name": "Vercel", "level": "expert" },
+          { "name": "GitHub Actions", "level": "advanced" },
+          { "name": "Serverless Framework", "level": "expert" }
+        ]
+      },
+      "integration": {
+        "title": "Integration & APIs",
+        "items": [
+          { "name": "Shopify", "level": "expert" },
+          { "name": "WooCommerce", "level": "expert" },
+          { "name": "Stripe", "level": "advanced" },
+          { "name": "Instagram API", "level": "advanced" },
+          { "name": "Impact Radius", "level": "expert" }
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "id": "real-estate-ai",
+        "name": "AI Powered Real Estate App",
+        "role": "Lead Developer",
+        "url": "https://guanacastelotsforsale.com",
+        "description": "AI-powered real estate platform for Costa Rica properties with advanced semantic search and multi-language support.",
+        "highlights": [
+          "AI Integration: Google AI SDK for automated content generation and 13-language translation",
+          "Semantic Search: Vector-based property search using pgvector extension",
+          "Content Safety: Google Cloud Vision and Video Intelligence API integration",
+          "Multi-language Support: 13 languages with next-intl and AI-powered translations",
+          "Real-time Communication: WhatsApp-style messaging system with property inquiry management"
+        ],
+        "techStack": "Next.js 15, TypeScript, PostgreSQL, Prisma, Material-UI, Google Cloud APIs, Firebase"
+      },
+      {
+        "id": "astro-wp",
+        "name": "Astro WordPress Starter",
+        "role": "Open Source Project",
+        "url": "https://github.com/ronnycoding/astro-wp",
+        "description": "Modern headless WordPress starter demonstrating best practices for performance-optimized content sites.",
+        "highlights": [
+          "Headless Architecture: WordPress backend with Astro frontend for optimal performance",
+          "Type Safety: Full TypeScript integration with auto-generated GraphQL types",
+          "SEO Optimization: Yoast SEO integration with proper meta tag handling",
+          "Developer Experience: GraphQL Code Generator with Docker-based local development"
+        ],
+        "techStack": "Astro 4.x, TypeScript, WordPress, WPGraphQL, Apollo Client, Docker"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "totalCount": "54+ Professional Certifications",
+    "viewAllLink": "View all certifications on LinkedIn",
+    "categories": {
+      "ai": {
+        "title": "AI & Machine Learning (2025)",
+        "items": [
+          { "name": "Foundation: Introduction to LangGraph", "issuer": "LangChain", "date": "Sep 2025", "credential": "https://academy.langchain.com/certificates/q3u1a3g7qa" },
+          { "name": "Claude Code in Action", "issuer": "Anthropic", "date": "Aug 2025", "credential": "https://verify.skilljar.com/c/gvuf39mhry56" },
+          { "name": "Introduction to Model Context Protocol", "issuer": "Anthropic", "date": "Aug 2025" },
+          { "name": "Building a Machine Learning Ready Organization", "issuer": "AWS", "date": "Jan 2025" },
+          { "name": "Developing Generative Artificial Intelligence Solution", "issuer": "AWS", "date": "Jan 2025" },
+          { "name": "Essentials of Prompt Engineering", "issuer": "AWS", "date": "Jan 2025" }
+        ]
+      },
+      "development": {
+        "title": "Advanced Development (2024)",
+        "items": [
+          { "name": "Fullstack TypeScript (feat. GraphQL & Node.js)", "issuer": "Frontend Masters", "date": "Oct 2024" },
+          { "name": "Introduction to Backend Architectures", "issuer": "Frontend Masters", "date": "Oct 2024" },
+          { "name": "Practical Python", "issuer": "Frontend Masters", "date": "Oct 2024" },
+          { "name": "Astro for Fast Website Development", "issuer": "Frontend Masters", "date": "Sep 2024" },
+          { "name": "Enterprise TypeScript", "issuer": "Frontend Masters", "date": "Sep 2024" }
+        ]
+      },
+      "cloud": {
+        "title": "Cloud & Infrastructure",
+        "items": [
+          { "name": "Ultimate AWS Certified Cloud Practitioner", "issuer": "Udemy", "date": "Dec 2020" },
+          { "name": "AWS CloudFormation - Infrastructure as Code", "issuer": "Udemy", "date": "Oct 2019" },
+          { "name": "Introduction to AWS Lambda", "issuer": "AWS", "date": "Dec 2018" }
+        ]
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "institution": "Universidad Nacional Abierta",
+    "degree": "Systems Engineering",
+    "field": "Computer Software Engineering",
+    "period": "2011 - 2016"
+  },
+  "community": {
+    "title": "Community Involvement",
+    "items": [
+      {
+        "organization": "CostaRicaJS",
+        "role": "Community Leader",
+        "duration": "10+ Years",
+        "description": "Active contributor and leader in Costa Rica's JavaScript ecosystem",
+        "activities": [
+          "Technical Evangelism: Promoting modern web development practices and technologies",
+          "Knowledge Sharing: Regular participation in meetups, workshops, and technical discussions"
+        ]
+      },
+      {
+        "organization": "WordCamp San José",
+        "role": "Speaker & Volunteer",
+        "events": [
+          { "type": "Speaker", "date": "Sep 2017", "topic": "Nuevas características en PHP7", "url": "https://2017.sanjose.wordcamp.org/speaker/ronny-freites/#more-1185" },
+          { "type": "Volunteer", "date": "Nov 2016", "description": "First WordCamp in Costa Rica history" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Interested in working together or have a question? Feel free to reach out!",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "social": {
+      "linkedin": "Connect on LinkedIn",
+      "github": "View GitHub Profile",
+      "twitter": "Follow on Twitter",
+      "threads": "Follow on Threads",
+      "email": "Send Email"
+    },
+    "info": {
+      "email": "ronnyangelo.freites@gmail.com",
+      "location": "San José, Costa Rica",
+      "availability": "Available for consulting and full-time opportunities"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Ronny Freites. All rights reserved.",
+    "madeWith": "Made with",
+    "and": "and",
+    "builtWith": "Next.js, TypeScript, Chakra UI",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "languages": {
+    "spanish": "Spanish",
+    "english": "English",
+    "nativeSpeaker": "Native speaker",
+    "professionalProficiency": "Professional proficiency"
+  },
+  "common": {
+    "readMore": "Read More",
+    "showLess": "Show Less",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "download": "Download",
+    "downloadCV": "Download CV",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}

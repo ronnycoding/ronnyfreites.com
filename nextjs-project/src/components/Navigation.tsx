@@ -11,6 +11,8 @@ import {
   Icon,
 } from '@chakra-ui/react'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import { LanguageSwitcher } from './shared/LanguageSwitcher'
+import { ThemeToggle } from './shared/ThemeToggle'
 
 const Links = ['About', 'Experience', 'Skills', 'Projects', 'CV', 'Contact']
 
@@ -55,8 +57,9 @@ export default function Navigation() {
               ))}
             </HStack>
           </HStack>
-          <Flex alignItems={'center'}>
-            {/* Color mode toggle can be added later if needed */}
+          <Flex alignItems={'center'} gap={2}>
+            <ThemeToggle />
+            <LanguageSwitcher />
           </Flex>
         </Flex>
 
@@ -66,6 +69,9 @@ export default function Navigation() {
               {Links.map((link) => (
                 <NavLink key={link} href={`#${link.toLowerCase()}`} onClick={onClose}>{link}</NavLink>
               ))}
+              <Flex gap={2} pt={2}>
+                <ThemeToggle />
+              </Flex>
             </Stack>
           </Box>
         ) : null}

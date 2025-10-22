@@ -1,0 +1,324 @@
+{
+  "navigation": {
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "cv": "CV",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "name": "Ronny Freites",
+    "title": "Ingeniero de Producto Full-Stack",
+    "subtitle": "Creador de Productos con IA | Creador de Contenido para Ingenieros de Software",
+    "location": "San José, Costa Rica",
+    "description": "Ingeniero de Software Senior con más de 9 años de experiencia especializado en desarrollo empresarial full-stack, arquitectura serverless, ingeniería de plataformas de comercio electrónico y soluciones impulsadas por IA.",
+    "cta": {
+      "viewWork": "Ver Mi Trabajo",
+      "contact": "Contáctame"
+    }
+  },
+  "about": {
+    "title": "Acerca de Mí",
+    "summary": "Ingeniero de Software Senior con más de 9 años de experiencia especializado en desarrollo empresarial full-stack, arquitectura serverless, ingeniería de plataformas de comercio electrónico y soluciones impulsadas por IA. Historial comprobado de arquitectura y mantenimiento de sistemas críticos que procesan millones de eventos diarios, con experiencia en optimización de GraphQL, integraciones de terceros, diseño de sistemas escalables e integración de inteligencia artificial.",
+    "highlights": {
+      "leadership": "Sólida experiencia en liderazgo técnico, mentoría e involucramiento comunitario en el ecosistema de JavaScript y WordPress de Costa Rica.",
+      "passion": "Apasionado por construir soluciones innovadoras impulsadas por IA que mejoran la experiencia del usuario e impulsan el crecimiento empresarial."
+    }
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "yearsOfExperience": "Más de 9 Años de Experiencia",
+    "items": [
+      {
+        "id": "ai-consultant",
+        "title": "Consultor en Ingeniería de Software con IA",
+        "company": "Autónomo (Freelance)",
+        "period": "Ago 2025 - Presente",
+        "location": "San José, Costa Rica - Remoto",
+        "description": "Entrega de soluciones de software impulsadas por IA y servicios de consultoría, especializado en integración de inteligencia artificial, diseño de software y desarrollo de productos innovadores. Enfoque en la construcción de sistemas inteligentes que aprovechan tecnologías de IA de vanguardia para resolver problemas empresariales complejos.",
+        "skills": ["Inteligencia Artificial (IA)", "Diseño de Software", "Desarrollo de Productos", "LangChain", "Model Context Protocol"]
+      },
+      {
+        "id": "loudcrowd",
+        "title": "Ingeniero de Software Senior",
+        "company": "LoudCrowd",
+        "period": "Abr 2022 - Jul 2025",
+        "duration": "3 años 4 meses",
+        "location": "Remoto",
+        "description": "Arquitecturé y mantuve una plataforma empresarial serverless crítica que procesa millones de eventos y transacciones de comercio electrónico diariamente. Lideré el desarrollo full-stack con enfoque en optimización de GraphQL, integraciones de terceros y arquitectura de sistemas escalables.",
+        "achievements": [
+          "Integración de Red de Afiliados Impact: Lideré el desarrollo de pipelines robustos de procesamiento de eventos web manejando más de 45 días de datos históricos con manejo sofisticado de errores y mecanismos de reintento automatizados.",
+          "Plataforma de Creadores/Embajadores: Arquitecturé una plataforma integral de marketing de influencers con generación dinámica de enlaces de seguimiento, paneles de análisis en tiempo real y motores de cálculo de comisiones.",
+          "Optimización de Rendimiento: Implementé estrategias avanzadas de consultas de base de datos y algoritmos inteligentes de ordenamiento de productos, contribuyendo directamente a mejorar la confiabilidad del sistema y aumentar la generación de ingresos.",
+          "Innovación Técnica: Desarrollé un sistema de widgets expandible con múltiples opciones de posicionamiento, permitiendo la integración fluida de enlaces de productos en varias plataformas."
+        ],
+        "techStack": "Python Flask (serverless en AWS Lambda), React/TypeScript con Apollo GraphQL, PostgreSQL en AWS RDS, AWS CDK + Serverless Framework"
+      },
+      {
+        "id": "gorilla-logic",
+        "title": "Consultor Senior de Ingeniería de Software",
+        "company": "Gorilla Logic",
+        "period": "Sep 2021 - Abr 2022",
+        "duration": "8 meses",
+        "location": "Costa Rica",
+        "description": "Lideré la transformación del sistema legacy .NET a una arquitectura serverless moderna para el sistema de Gestión de Subvenciones de Submittable, sirviendo como líder técnico y mentor.",
+        "achievements": [
+          "Migración de Sistema Legacy: Migré exitosamente el sistema .NET Core existente a React con funciones serverless de AWS Lambda",
+          "Liderazgo Técnico: Proporcioné planificación estratégica y orientación en la ejecución, mentorizando a desarrolladores junior sobre expectativas del proyecto y mejores prácticas de arquitectura escalable",
+          "Desarrollo Frontend Moderno: Implementé aplicación React utilizando Hooks, Context API y Redux para gestión efectiva del estado",
+          "Integración de Pagos: Implementé integración con Payoneer para retiros de fondos y procesamiento de pagos",
+          "Control de Calidad: Establecí un marco integral de pruebas unitarias utilizando Jest y React Testing Library"
+        ],
+        "techStack": "ReactJS, AWS Lambda, .NET Core, Redux, Jest, React Testing Library"
+      },
+      {
+        "id": "omnilabs",
+        "title": "Líder Técnico",
+        "company": "OMNiLabs",
+        "period": "Nov 2018 - Sep 2021",
+        "duration": "2 años 11 meses",
+        "location": "Costa Rica - Remoto",
+        "description": "Lideré un equipo de seis desarrolladores full-stack en el desarrollo de un proyecto integral de pasarela de pagos con soluciones de pago minorista basadas en códigos QR.",
+        "achievements": [
+          "Liderazgo de Equipo: Gestioné y mentoricé a un equipo de seis desarrolladores a través de desafíos técnicos complejos",
+          "Arquitectura de Pasarela de Pagos: Diseñé e implementé un sistema completo de pagos con integraciones de pago externas y soporte de aplicación móvil",
+          "Innovación con Códigos QR: Implementé exitosamente una solución de pago basada en códigos QR específicamente adaptada para la recepción de pagos a nivel minorista",
+          "Infraestructura AWS: Optimicé el rendimiento utilizando funciones AWS Lambda y gestión de infraestructura con Serverless.com",
+          "Toma de Decisiones Estratégicas: Lideré decisiones arquitectónicas y diseño de características mientras fomentaba un ambiente de aprendizaje colaborativo"
+        ],
+        "techStack": "TypeScript, Node.js, React Native, AWS Lambda, Serverless Framework"
+      },
+      {
+        "id": "critical-mass",
+        "title": "Desarrollador Full Stack Senior",
+        "company": "Critical Mass",
+        "period": "Nov 2016 - Nov 2018",
+        "duration": "2 años 1 mes",
+        "location": "Costa Rica - Presencial",
+        "description": "Lideré el desarrollo del sitio web internacional de Marriott Hotels, enfocándome en accesibilidad, rendimiento y experiencia del usuario para un cliente Fortune 500.",
+        "achievements": [
+          "Desarrollo WordPress Empresarial: Lideré el desarrollo del sitio internacional de Marriott con plugin personalizado para exhibición de ubicaciones comerciales",
+          "Sistemas de Filtrado Avanzados: Diseñé plugin integral con filtros de región y marca para gestionar volúmenes sustanciales de información",
+          "Excelencia en Accesibilidad: Implementé técnicas avanzadas de accesibilidad e integración con lectores de pantalla para una experiencia de usuario inclusiva",
+          "Mentoría Técnica: Mentoricé a miembros del equipo y contribuí a resolver desafíos complejos con soluciones innovadoras"
+        ],
+        "techStack": "WordPress, PHP, jQuery, MySQL, Desarrollo de Plugin Personalizado"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Experiencia Técnica",
+    "categories": {
+      "backend": {
+        "title": "Tecnologías Backend",
+        "items": [
+          { "name": "TypeScript", "level": "experto" },
+          { "name": "Python", "level": "experto" },
+          { "name": "JavaScript", "level": "experto" },
+          { "name": "Node.js", "level": "experto" },
+          { "name": "Flask", "level": "avanzado" },
+          { "name": "PostgreSQL", "level": "experto" },
+          { "name": "AWS Lambda", "level": "experto" },
+          { "name": "GraphQL", "level": "experto" }
+        ]
+      },
+      "frontend": {
+        "title": "Tecnologías Frontend",
+        "items": [
+          { "name": "React", "level": "experto" },
+          { "name": "Next.js", "level": "experto" },
+          { "name": "TypeScript", "level": "experto" },
+          { "name": "Tailwind CSS", "level": "experto" },
+          { "name": "Apollo Client", "level": "experto" },
+          { "name": "Redux", "level": "avanzado" }
+        ]
+      },
+      "ai": {
+        "title": "IA y Aprendizaje Automático",
+        "items": [
+          { "name": "Google AI SDK (Gemini)", "level": "avanzado" },
+          { "name": "APIs de OpenAI", "level": "avanzado" },
+          { "name": "LangChain", "level": "avanzado" },
+          { "name": "LangGraph", "level": "intermedio" },
+          { "name": "Bases de Datos Vectoriales", "level": "avanzado" },
+          { "name": "Ingeniería de Prompts", "level": "experto" }
+        ]
+      },
+      "devops": {
+        "title": "DevOps e Infraestructura",
+        "items": [
+          { "name": "Docker", "level": "avanzado" },
+          { "name": "AWS", "level": "experto" },
+          { "name": "Vercel", "level": "experto" },
+          { "name": "GitHub Actions", "level": "avanzado" },
+          { "name": "Serverless Framework", "level": "experto" }
+        ]
+      },
+      "integration": {
+        "title": "Integración y APIs",
+        "items": [
+          { "name": "Shopify", "level": "experto" },
+          { "name": "WooCommerce", "level": "experto" },
+          { "name": "Stripe", "level": "avanzado" },
+          { "name": "API de Instagram", "level": "avanzado" },
+          { "name": "Impact Radius", "level": "experto" }
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "items": [
+      {
+        "id": "real-estate-ai",
+        "name": "Aplicación de Bienes Raíces con IA",
+        "role": "Desarrollador Principal",
+        "url": "https://guanacastelotsforsale.com",
+        "description": "Plataforma de bienes raíces impulsada por IA para propiedades en Costa Rica con búsqueda semántica avanzada y soporte multiidioma.",
+        "highlights": [
+          "Integración de IA: Google AI SDK para generación automática de contenido y traducción a 13 idiomas",
+          "Búsqueda Semántica: Búsqueda de propiedades basada en vectores usando extensión pgvector",
+          "Seguridad de Contenido: Integración con Google Cloud Vision y Video Intelligence API",
+          "Soporte Multiidioma: 13 idiomas con next-intl y traducciones impulsadas por IA",
+          "Comunicación en Tiempo Real: Sistema de mensajería estilo WhatsApp con gestión de consultas de propiedades"
+        ],
+        "techStack": "Next.js 15, TypeScript, PostgreSQL, Prisma, Material-UI, Google Cloud APIs, Firebase"
+      },
+      {
+        "id": "astro-wp",
+        "name": "Astro WordPress Starter",
+        "role": "Proyecto de Código Abierto",
+        "url": "https://github.com/ronnycoding/astro-wp",
+        "description": "Starter moderno de WordPress headless que demuestra las mejores prácticas para sitios de contenido optimizados para rendimiento.",
+        "highlights": [
+          "Arquitectura Headless: Backend de WordPress con frontend de Astro para rendimiento óptimo",
+          "Seguridad de Tipos: Integración completa de TypeScript con tipos GraphQL autogenerados",
+          "Optimización SEO: Integración de Yoast SEO con manejo apropiado de meta etiquetas",
+          "Experiencia del Desarrollador: GraphQL Code Generator con desarrollo local basado en Docker"
+        ],
+        "techStack": "Astro 4.x, TypeScript, WordPress, WPGraphQL, Apollo Client, Docker"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "totalCount": "Más de 54 Certificaciones Profesionales",
+    "viewAllLink": "Ver todas las certificaciones en LinkedIn",
+    "categories": {
+      "ai": {
+        "title": "IA y Aprendizaje Automático (2025)",
+        "items": [
+          { "name": "Foundation: Introducción a LangGraph", "issuer": "LangChain", "date": "Sep 2025", "credential": "https://academy.langchain.com/certificates/q3u1a3g7qa" },
+          { "name": "Claude Code en Acción", "issuer": "Anthropic", "date": "Ago 2025", "credential": "https://verify.skilljar.com/c/gvuf39mhry56" },
+          { "name": "Introducción al Model Context Protocol", "issuer": "Anthropic", "date": "Ago 2025" },
+          { "name": "Construyendo una Organización Lista para Machine Learning", "issuer": "AWS", "date": "Ene 2025" },
+          { "name": "Desarrollando Soluciones de Inteligencia Artificial Generativa", "issuer": "AWS", "date": "Ene 2025" },
+          { "name": "Fundamentos de Ingeniería de Prompts", "issuer": "AWS", "date": "Ene 2025" }
+        ]
+      },
+      "development": {
+        "title": "Desarrollo Avanzado (2024)",
+        "items": [
+          { "name": "TypeScript Full-Stack (con GraphQL y Node.js)", "issuer": "Frontend Masters", "date": "Oct 2024" },
+          { "name": "Introducción a Arquitecturas Backend", "issuer": "Frontend Masters", "date": "Oct 2024" },
+          { "name": "Python Práctico", "issuer": "Frontend Masters", "date": "Oct 2024" },
+          { "name": "Astro para Desarrollo Rápido de Sitios Web", "issuer": "Frontend Masters", "date": "Sep 2024" },
+          { "name": "TypeScript Empresarial", "issuer": "Frontend Masters", "date": "Sep 2024" }
+        ]
+      },
+      "cloud": {
+        "title": "Nube e Infraestructura",
+        "items": [
+          { "name": "Ultimate AWS Certified Cloud Practitioner", "issuer": "Udemy", "date": "Dic 2020" },
+          { "name": "AWS CloudFormation - Infraestructura como Código", "issuer": "Udemy", "date": "Oct 2019" },
+          { "name": "Introducción a AWS Lambda", "issuer": "AWS", "date": "Dic 2018" }
+        ]
+      }
+    }
+  },
+  "education": {
+    "title": "Educación",
+    "institution": "Universidad Nacional Abierta",
+    "degree": "Ingeniería de Sistemas",
+    "field": "Ingeniería de Software de Computación",
+    "period": "2011 - 2016"
+  },
+  "community": {
+    "title": "Participación Comunitaria",
+    "items": [
+      {
+        "organization": "CostaRicaJS",
+        "role": "Líder Comunitario",
+        "duration": "Más de 10 Años",
+        "description": "Contribuidor activo y líder en el ecosistema de JavaScript de Costa Rica",
+        "activities": [
+          "Evangelismo Técnico: Promoviendo prácticas y tecnologías modernas de desarrollo web",
+          "Compartir Conocimiento: Participación regular en meetups, talleres y discusiones técnicas"
+        ]
+      },
+      {
+        "organization": "WordCamp San José",
+        "role": "Ponente y Voluntario",
+        "events": [
+          { "type": "Ponente", "date": "Sep 2017", "topic": "Nuevas características en PHP7", "url": "https://2017.sanjose.wordcamp.org/speaker/ronny-freites/#more-1185" },
+          { "type": "Voluntario", "date": "Nov 2016", "description": "Primer WordCamp en la historia de Costa Rica" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctame",
+    "description": "¿Interesado en trabajar juntos o tienes alguna pregunta? ¡No dudes en contactarme!",
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Tu Correo Electrónico",
+      "message": "Tu Mensaje",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado exitosamente!",
+      "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+    },
+    "social": {
+      "linkedin": "Conectar en LinkedIn",
+      "github": "Ver Perfil de GitHub",
+      "twitter": "Seguir en Twitter",
+      "threads": "Seguir en Threads",
+      "email": "Enviar Correo"
+    },
+    "info": {
+      "email": "ronnyangelo.freites@gmail.com",
+      "location": "San José, Costa Rica",
+      "availability": "Disponible para consultoría y oportunidades de tiempo completo"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Ronny Freites. Todos los derechos reservados.",
+    "madeWith": "Hecho con",
+    "and": "y",
+    "builtWith": "Next.js, TypeScript, Chakra UI",
+    "links": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio"
+    }
+  },
+  "languages": {
+    "spanish": "Español",
+    "english": "Inglés",
+    "nativeSpeaker": "Hablante nativo",
+    "professionalProficiency": "Competencia profesional"
+  },
+  "common": {
+    "readMore": "Leer Más",
+    "showLess": "Mostrar Menos",
+    "viewProject": "Ver Proyecto",
+    "viewCode": "Ver Código",
+    "download": "Descargar",
+    "downloadCV": "Descargar CV",
+    "learnMore": "Aprender Más",
+    "viewAll": "Ver Todo",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito"
+  }
+}
