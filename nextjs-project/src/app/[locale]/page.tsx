@@ -1,5 +1,5 @@
 import Navigation from '@/components/Navigation'
-import HeroSection from '@/components/HeroSection'
+import HeroSection from '@/components/sections/HeroSection'
 import ExperienceSection from '@/components/ExperienceSection'
 import SkillsSection from '@/components/SkillsSection'
 import ProjectsSection from '@/components/ProjectsSection'
@@ -11,8 +11,9 @@ export default function Home() {
   return (
     <Box overflowX="hidden">
       <Navigation />
-      <Box id="about" pt={16}>
-        <HeroSection />
+      <HeroSection />
+      <Box id="about">
+        {/* About section will be added here */}
       </Box>
       <ExperienceSection />
       <SkillsSection />

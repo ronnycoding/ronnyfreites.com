@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
-  title: "Ronny Freites - Full-Stack Product Engineer",
-  description: "AI-Powered Product Builder | Content Creator for Software Engineers",
+  title: 'Ronny Freites - Full-Stack Product Engineer',
+  description:
+    'AI-Powered Product Builder | Content Creator for Software Engineers',
 };
 
 export default function RootLayout({
@@ -11,5 +12,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return children;
+  return (
+    <html>
+      <body>{children}</body>
+    </html>
+  );
 }

@@ -12,11 +12,20 @@
     "name": "Ronny Freites",
     "title": "Ingeniero de Producto Full-Stack",
     "subtitle": "Creador de Productos con IA | Creador de Contenido para Ingenieros de Software",
+    "tagline": "Ingeniero de Producto Full-Stack | Constructor de Productos con IA | Creador de Contenido",
     "location": "San José, Costa Rica",
+    "availability": "Disponible para contratar",
     "description": "Ingeniero de Software Senior con más de 9 años de experiencia especializado en desarrollo empresarial full-stack, arquitectura serverless, ingeniería de plataformas de comercio electrónico y soluciones impulsadas por IA.",
+    "stats": {
+      "experience": "Años de Experiencia",
+      "followers": "Seguidores en GitHub",
+      "certifications": "Certificaciones"
+    },
     "cta": {
       "viewWork": "Ver Mi Trabajo",
-      "contact": "Contáctame"
+      "contact": "Contáctame",
+      "projects": "Ver Mi Trabajo",
+      "consultation": "Contáctame"
     }
   },
   "about": {

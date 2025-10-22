@@ -34,6 +34,8 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          cyan: "hsl(var(--accent-cyan))",
+          purple: "hsl(var(--accent-purple))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -133,6 +135,14 @@ export default {
             transform: "translateY(-10px)",
           },
         },
+        gradient: {
+          "0%, 100%": {
+            backgroundPosition: "0% 50%",
+          },
+          "50%": {
+            backgroundPosition: "100% 50%",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -143,6 +153,7 @@ export default {
         slideLeft: "slideLeft 0.5s ease-out",
         slideRight: "slideRight 0.5s ease-out",
         float: "float 3s ease-in-out infinite",
+        gradient: "gradient 8s ease infinite",
       },
     },
   },
