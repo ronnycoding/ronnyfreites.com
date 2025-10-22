@@ -87,7 +87,7 @@ const projects: Project[] = [
       'Custom payment gateway integration'
     ],
     techStack: ['Next.js', 'TypeScript', 'Shopify API', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-    url: 'https://shipease.com',
+    url: 'https://shipeasesoftware.com',
     category: 'E-commerce',
     featured: false,
     icon: MessageSquare
