@@ -23,7 +23,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={inter.className} style={{ overflowX: 'hidden' }}>
+      <body className={`${inter.className} overflow-x-hidden`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
