@@ -98,18 +98,10 @@ export default function Footer() {
         <Separator className="my-8" />
 
         {/* Bottom Bar */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-sm text-muted-foreground">
           <p>
             © {currentYear} {t('copyright')}
           </p>
-          <div className="flex gap-6">
-            <Link href="/privacy" className="hover:text-accent-cyan transition-colors">
-              {t('legal.privacy')}
-            </Link>
-            <Link href="/terms" className="hover:text-accent-cyan transition-colors">
-              {t('legal.terms')}
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
