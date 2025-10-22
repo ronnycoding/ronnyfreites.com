@@ -32,8 +32,30 @@
     "title": "About Me",
     "summary": "Senior Software Engineer with 9+ years of experience specializing in enterprise full-stack development, serverless architecture, e-commerce platform engineering, and AI-powered solutions. Proven track record of architecting and maintaining mission-critical systems processing millions of events daily, with expertise in GraphQL optimization, third-party integrations, scalable system design, and artificial intelligence integration.",
     "highlights": {
-      "leadership": "Strong background in technical leadership, mentoring, and community involvement in Costa Rica's JavaScript and WordPress ecosystem.",
-      "passion": "Passionate about building innovative AI-driven solutions that enhance user experience and drive business growth."
+      "experience": {
+        "title": "9+ Years Experience",
+        "description": "Deep expertise in full-stack development, cloud architecture, and modern web technologies"
+      },
+      "innovation": {
+        "title": "AI-Powered Solutions",
+        "description": "Building intelligent systems with LangChain, OpenAI, and cutting-edge AI technologies"
+      },
+      "leadership": {
+        "title": "Technical Leadership",
+        "description": "Led teams of 6+ developers across multiple enterprise-level projects"
+      },
+      "certifications": {
+        "title": "54+ Certifications",
+        "description": "Continuous learning across AI/ML, cloud platforms, and development frameworks"
+      },
+      "performance": {
+        "title": "High-Scale Systems",
+        "description": "Architected platforms processing millions of transactions daily with 99.9% uptime"
+      },
+      "community": {
+        "title": "Community Leader",
+        "description": "10+ years leading CostaRicaJS community and contributing to open source"
+      }
     }
   },
   "experience": {
@@ -303,11 +325,20 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Ronny Freites. All rights reserved.",
-    "madeWith": "Made with",
-    "and": "and",
-    "builtWith": "Next.js, TypeScript, Chakra UI",
+    "tagline": "Full-Stack Product Engineer building AI-powered solutions",
+    "sections": {
+      "quickLinks": "Quick Links",
+      "social": "Connect",
+      "contact": "Contact"
+    },
     "links": {
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "copyright": "Ronny Freites. All rights reserved.",
+    "legal": {
       "privacy": "Privacy Policy",
       "terms": "Terms of Service"
     }

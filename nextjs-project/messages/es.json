@@ -32,8 +32,30 @@
     "title": "Acerca de Mí",
     "summary": "Ingeniero de Software Senior con más de 9 años de experiencia especializado en desarrollo empresarial full-stack, arquitectura serverless, ingeniería de plataformas de comercio electrónico y soluciones impulsadas por IA. Historial comprobado de arquitectura y mantenimiento de sistemas críticos que procesan millones de eventos diarios, con experiencia en optimización de GraphQL, integraciones de terceros, diseño de sistemas escalables e integración de inteligencia artificial.",
     "highlights": {
-      "leadership": "Sólida experiencia en liderazgo técnico, mentoría e involucramiento comunitario en el ecosistema de JavaScript y WordPress de Costa Rica.",
-      "passion": "Apasionado por construir soluciones innovadoras impulsadas por IA que mejoran la experiencia del usuario e impulsan el crecimiento empresarial."
+      "experience": {
+        "title": "9+ Años de Experiencia",
+        "description": "Profunda experiencia en desarrollo full-stack, arquitectura en la nube y tecnologías web modernas"
+      },
+      "innovation": {
+        "title": "Soluciones con IA",
+        "description": "Construcción de sistemas inteligentes con LangChain, OpenAI y tecnologías de IA de vanguardia"
+      },
+      "leadership": {
+        "title": "Liderazgo Técnico",
+        "description": "Lideré equipos de más de 6 desarrolladores en múltiples proyectos empresariales"
+      },
+      "certifications": {
+        "title": "54+ Certificaciones",
+        "description": "Aprendizaje continuo en IA/ML, plataformas en la nube y frameworks de desarrollo"
+      },
+      "performance": {
+        "title": "Sistemas de Alta Escala",
+        "description": "Arquitectura de plataformas que procesan millones de transacciones diarias con 99.9% de uptime"
+      },
+      "community": {
+        "title": "Líder Comunitario",
+        "description": "Más de 10 años liderando la comunidad CostaRicaJS y contribuyendo a código abierto"
+      }
     }
   },
   "experience": {
@@ -303,11 +325,20 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Ronny Freites. Todos los derechos reservados.",
-    "madeWith": "Hecho con",
-    "and": "y",
-    "builtWith": "Next.js, TypeScript, Chakra UI",
+    "tagline": "Ingeniero de Producto Full-Stack construyendo soluciones con IA",
+    "sections": {
+      "quickLinks": "Enlaces Rápidos",
+      "social": "Conectar",
+      "contact": "Contacto"
+    },
     "links": {
+      "about": "Acerca de",
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "contact": "Contacto"
+    },
+    "copyright": "Ronny Freites. Todos los derechos reservados.",
+    "legal": {
       "privacy": "Política de Privacidad",
       "terms": "Términos de Servicio"
     }

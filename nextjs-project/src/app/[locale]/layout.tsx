@@ -1,7 +1,6 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { routing } from '@/../../i18n/routing';
-import { Provider } from '@/components/ui/provider';
 import { ThemeProvider } from '@/providers/ThemeProvider';
 import { Inter } from 'next/font/google';
 
@@ -31,9 +30,7 @@ export default async function LocaleLayout({
           disableTransitionOnChange={false}
         >
           <NextIntlClientProvider messages={messages}>
-            <Provider>
-              {children}
-            </Provider>
+            {children}
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
