@@ -97,7 +97,7 @@ const projects: Project[] = [
 const categories = ['All', 'AI/ML', 'Open Source', 'E-commerce', 'Enterprise'] as const;
 
 export function ProjectsSection() {
-  const [selectedCategory, setSelectedCategory] = useState<typeof categories[number]>('All');
+  const [selectedCategory, setSelectedCategory] = useState<'All' | 'AI/ML' | 'Open Source' | 'E-commerce' | 'Enterprise'>('All');
 
   const filteredProjects = selectedCategory === 'All'
     ? projects
@@ -164,10 +164,10 @@ export function ProjectsSection() {
 
         {/* Projects Grid */}
         <motion.div
+          key={selectedCategory}
           variants={containerVariants}
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
+          animate="visible"
           className="grid grid-cols-1 md:grid-cols-2 gap-6"
         >
           {filteredProjects.map((project) => {
@@ -177,7 +177,6 @@ export function ProjectsSection() {
               <motion.div
                 key={project.id}
                 variants={itemVariants}
-                layout
                 className="group"
               >
                 <Card className="h-full hover:shadow-2xl transition-all duration-300 border-muted/50 backdrop-blur-sm bg-background/80 relative overflow-hidden">
